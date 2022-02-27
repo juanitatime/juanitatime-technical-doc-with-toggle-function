@@ -8,7 +8,6 @@ let toggleNav = function () {
     let getNavbarTitle = document.querySelector("h1");
     let getMaindoc = document.querySelector("#main-doc");
 
-
     if (toggleNavStatus === false) {
         getNavbarUl.style.visibility = "visible";
         getNavbarTitle.style.visibility = "visible";
@@ -31,15 +30,13 @@ let toggleNav = function () {
         getNavbarTitle.style.opacity = "0";
         getMaindoc.style.marginLeft = "80px";
         
-        
         let arrayLength = getNavbarLinks.length;
-        for (let i = 0; i < arrayLength; index++) {
+        for (let i = 0; i < arrayLength; i++) {
             getNavbarLinks[i].style.opacity = "0";
             
         }
 
         toggleNavStatus = false;
-       
     }
 }
 

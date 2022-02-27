@@ -23,6 +23,8 @@ h1 {
   text-align: center;
   overflow: hidden;
   visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
 }
 html, body {
   min-width: 290px;
@@ -72,6 +74,7 @@ transition: all 0.3s ease-in-out;
   color: white;
   font-size: 19px;
   white-space: nowrap;
+  transition: all 0.3s ease-in-out;
 
 }
 
